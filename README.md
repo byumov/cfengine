@@ -1,6 +1,6 @@
-# Brew formula for old version of CFEngine
+# Brew formula for build old version of CFEngine
 
-## Version
+## CFEngine Version
 3.4.5
 
 ## Installing
