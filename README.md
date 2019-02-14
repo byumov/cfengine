@@ -3,6 +3,8 @@
 ## CFEngine Version
 3.4.5
 
+Based on [official brew formula](https://formulae.brew.sh/formula/cfengine)
+
 ## Installing
 
 ```bash
