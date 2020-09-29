@@ -5,7 +5,7 @@ class Cfengine < Formula
   sha256 "542808b9f532e77d66dca19e83bdc1f995d7d0066b940a39bdd5db9a71680011"
 
   depends_on "lmdb"
-  depends_on "openssl"
+  depends_on "openssl@1.0"
   depends_on "pcre"
 
   def install
@@ -17,7 +17,7 @@ class Cfengine < Formula
                           "--without-mysql",
                           "--without-postgresql"
     # hack for old cfengine version and new MacOS
-    system_command "/usr/local/bin/sed", 
+    system_command "/usr/local/bin/gsed", 
                    args: ["-i", "s/typedef int clockid_t;/typedef enum clockid_t;/g", "src/platform.h"]
     system "make", "install"
   end
