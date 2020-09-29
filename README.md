@@ -1,4 +1,4 @@
-# Brew formula for build old version of CFEngine
+# Brew formula for build old version of CFEngine on MacOS
 
 ## CFEngine Version
 3.4.5
