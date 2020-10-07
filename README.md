@@ -16,9 +16,14 @@ brew install gsed
 
 Then clone repo and install CFEngine
 
-
 ```bash
 git clone git@github.com:byumov/cfengine.git
 cd cfengine
 brew install ./cfengine.rb
+```
+
+And disable cfengine updates
+
+```
+brew pin cfengine
 ```
