@@ -7,6 +7,7 @@ class Cfengine < Formula
   depends_on "lmdb"
   depends_on "openssl@1.0"
   depends_on "pcre"
+  depends_on "tokyo-cabinet"
 
   def install
     system "./configure", "--disable-dependency-tracking",
