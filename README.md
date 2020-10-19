@@ -11,7 +11,6 @@ First, install old version of `openssl` and `gsed`
 
 ```bash
 brew install rbenv/tap/openssl@1.0
-brew install gsed
 ```
 
 Then clone repo and install CFEngine
