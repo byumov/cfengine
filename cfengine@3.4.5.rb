@@ -1,4 +1,4 @@
-class Cfengine < Formula
+class CfengineAT345 < Formula
   desc "Help manage and understand IT infrastructure"
   homepage "https://cfengine.com/"
   url "https://cfengine-package-repos.s3.amazonaws.com/tarballs/cfengine-3.4.5.tar.gz"

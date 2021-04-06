@@ -1,11 +1,16 @@
-# Brew formula for build old version of CFEngine on MacOS
+# Brew formula for build old versions of CFEngine on MacOS
 
-## CFEngine Version
+[https://cfengine.com](https://cfengine.com)
+
+## CFEngine Versions
+
 3.4.5
+
+3.15.3 (current LTS)
 
 Based on [official brew formula](https://formulae.brew.sh/formula/cfengine)
 
-## Installing
+## Installing 3.4.5
 
 First, install old version of `openssl` and `gsed`
 
@@ -18,11 +23,19 @@ Then clone repo and install CFEngine
 ```bash
 git clone git@github.com:byumov/cfengine.git
 cd cfengine
-brew install ./cfengine.rb
+brew install ./cfengine@3.4.5.rb
 ```
 
-And disable cfengine updates
+## Installing 3.15.3
 
+```bash
+git clone git@github.com:byumov/cfengine.git
+cd cfengine
+brew install ./cfengine@3.15.3.rb
 ```
+
+## Disable auto update
+
+```bash
 brew pin cfengine
 ```
