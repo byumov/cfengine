@@ -21,7 +21,7 @@ brew install rbenv/tap/openssl@1.0
 Then clone repo and install CFEngine
 
 ```bash
-git clone git@github.com:byumov/cfengine.git
+git clone https://github.com/byumov/cfengine.git
 cd cfengine
 brew install ./cfengine@3.4.5.rb
 ```
@@ -29,7 +29,7 @@ brew install ./cfengine@3.4.5.rb
 ## Installing 3.15.3
 
 ```bash
-git clone git@github.com:byumov/cfengine.git
+git clone https://github.com/byumov/cfengine.git
 cd cfengine
 brew install ./cfengine@3.15.3.rb
 ```
